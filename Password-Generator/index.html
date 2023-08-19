@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <meta name="keywords" content="password generator generate extention chrome">
+    <meta name="author" content="Michael Powley">
+    <meta name="description" content="a small extention for a password generator for a 12 character password">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="backend.js"></script>
+    </head>
+
+
+    <body>
+        <div class="flex-container">
+            <span class="title">Click To Generate Password!</span>
+            <button id="password-button" onclick="createPassword()">Click Me!</button>
+            <div id="pass-background">
+            <h2 id="password"> </h2>
+            </div>
+        </div>
+    </body>
+</html>
